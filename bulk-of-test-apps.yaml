@@ -1,0 +1,118 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-logger-0
+  labels:
+    app: logger
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    command: ["sh", "-c", "while true; do echo $(date) Busybox logger pod 0; sleep 1; done"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-logger-1
+  labels:
+    app: logger
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    command: ["sh", "-c", "while true; do echo $(date) Busybox logger pod 1; sleep 1; done"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-logger-2
+  labels:
+    app: logger
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    command: ["sh", "-c", "while true; do echo $(date) Busybox logger pod 2; sleep 1; done"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-logger-3
+  labels:
+    app: logger
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    command: ["sh", "-c", "while true; do echo $(date) Busybox logger pod 3; sleep 1; done"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-logger-4
+  labels:
+    app: logger
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    command: ["sh", "-c", "while true; do echo $(date) Busybox logger pod 4; sleep 1; done"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-logger-5
+  labels:
+    app: logger
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    command: ["sh", "-c", "while true; do echo $(date) Busybox logger pod 5; sleep 1; done"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-logger-6
+  labels:
+    app: logger
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    command: ["sh", "-c", "while true; do echo $(date) Busybox logger pod 6; sleep 1; done"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-logger-7
+  labels:
+    app: logger
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    command: ["sh", "-c", "while true; do echo $(date) Busybox logger pod 7; sleep 1; done"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-logger-8
+  labels:
+    app: logger
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    command: ["sh", "-c", "while true; do echo $(date) Busybox logger pod 8; sleep 1; done"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-logger-9
+  labels:
+    app: logger
+spec:
+  containers:
+  - name: busybox
+    image: busybox
